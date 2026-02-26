@@ -1,0 +1,9 @@
+# Core single-cell analysis
+cellxgene-census      # access CellxGene Census (scRNA-seq data source)
+anndata               # AnnData format (.h5ad files)
+scanpy                # single-cell analysis in Python
+
+# Data handling
+pandas
+numpy
+requests
