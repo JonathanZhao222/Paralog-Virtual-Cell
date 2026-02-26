@@ -1,0 +1,25 @@
+name: paralog-dep
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python version compatible with all bioinformatics packages
+  - python=3.11
+
+  # Core
+  - pip
+  - pandas
+  - numpy
+  - requests
+  - scipy
+  - matplotlib
+  - seaborn
+
+  # Single-cell analysis
+  - anndata
+  - scanpy
+
+  # Install cellxgene-census via pip (not available on conda-forge)
+  - pip:
+    - cellxgene-census

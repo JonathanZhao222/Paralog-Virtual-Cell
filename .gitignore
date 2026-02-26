@@ -1,0 +1,18 @@
+# Large data files — do not commit to git
+data/
+results/
+
+# Conda/Python environments
+myenv/
+Miniconda3-latest-MacOSX-arm64.sh
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# R session files
+.RData
+.Rhistory
+*.Rcheck/
+
+# macOS
+.DS_Store
